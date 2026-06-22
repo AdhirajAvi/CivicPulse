@@ -108,3 +108,5 @@ CivicPulse has no real authentication in Phase 1. Duplicate vote prevention uses
 ## Admin Gate
 
 The `/admin` route uses `VITE_ADMIN_PASSCODE` and `sessionStorage` as a demo speed bump only. It is not security. Real authentication and authorization belong in Phase 2.
+
+Admin Dashboard Password : civicpulse2026
