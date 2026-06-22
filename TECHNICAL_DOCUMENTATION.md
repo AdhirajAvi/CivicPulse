@@ -484,18 +484,6 @@ VITE_ADMIN_PASSCODE=civicpulse2026
    - Passcode visible in frontend code
    - Intended as demo-only, not production security
 
-### Recommended Phase 2 Improvements
-
-- [ ] Implement OAuth/JWT authentication
-- [ ] Database session management
-- [ ] User role-based authorization
-- [ ] Rate limiting on issue creation
-- [ ] Input sanitization (XSS prevention)
-- [ ] HTTPS enforcement
-- [ ] API key rotation for Cloudinary
-- [ ] CORS whitelist validation
-- [ ] Request signing for sensitive operations
-
 ---
 
 ## Setup & Deployment
@@ -626,29 +614,6 @@ Production: Use service logger (PM2, Systemd, container logs)
 
 ---
 
-## Future Enhancements
-
-### Phase 2 Roadmap
-- [ ] User authentication & profiles
-- [ ] Notification system (email, SMS)
-- [ ] Advanced filtering & search
-- [ ] Issue timeline/history
-- [ ] Admin photo verification
-- [ ] Community reputation/badges
-- [ ] Export reports (PDF, CSV)
-- [ ] Mobile app (React Native)
-- [ ] Multi-city support
-
-### Technical Debt
-- [ ] Comprehensive error boundary components
-- [ ] Unit tests (Jest, React Testing Library)
-- [ ] E2E tests (Cypress, Playwright)
-- [ ] API rate limiting
-- [ ] Request validation middleware (Joi, Zod)
-- [ ] API documentation (Swagger/OpenAPI)
-
----
-
 ## References
 
 - [Express.js Documentation](https://expressjs.com/)
@@ -659,17 +624,3 @@ Production: Use service logger (PM2, Systemd, container logs)
 - [Leaflet Documentation](https://leafletjs.com/)
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/)
 - [Cloudinary Documentation](https://cloudinary.com/documentation/)
-
----
-
-## License
-
-Refer to the main repository for license information.
-
----
-
-## Document Version
-
-- **Version:** 1.0
-- **Last Updated:** 2026-06-22
-- **Author:** CivicPulse Development Team
